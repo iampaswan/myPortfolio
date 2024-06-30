@@ -1,0 +1,23 @@
+.Footer {
+  height: 8vh;
+
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.leftFooter {
+  margin-left: 1rem;
+}
+
+.middleFooter {
+  cursor: pointer;
+}
+
+.rightFooter {
+  margin-right: 1rem;
+}

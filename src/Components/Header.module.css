@@ -1,0 +1,57 @@
+.Header {
+  border-top: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.leftHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.profilepic {
+  transform: scale(1.5);
+}
+
+.name {
+  font-size: large;
+}
+
+.rightHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.rightHeaderElements {
+  padding: 0.3rem;
+}
+
+.rightHeaderElements:hover {
+  background-color: rgb(149, 167, 216);
+  border-radius: .3rem;
+  color: white;
+
+
+}
+
+.logoImage {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
