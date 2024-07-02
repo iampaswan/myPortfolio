@@ -1,5 +1,6 @@
 import styles from './MainSection.module.css'
 import mainPic from './pic.png'
+import myResume from './myResume.pdf'
 
 const MainSection = () => {
   return <><div className={styles.MainSection}>
@@ -12,7 +13,7 @@ const MainSection = () => {
       </p>
 
       <div >
-        <a ><button className={styles.twoButtons}>Download Resume</button></a>
+        <a href={myResume}><button className={styles.twoButtons}>Download Resume</button></a>
         <a ><button className={styles.twoButtons}>Contact Now</button></a>
       </div>
 
@@ -23,6 +24,7 @@ const MainSection = () => {
         <img src={mainPic} alt="" className={styles.mainPic} />
       </center>
     </div>
+
 
 
   </div>

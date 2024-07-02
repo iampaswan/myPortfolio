@@ -1,0 +1,9 @@
+.MainMenu {
+  height: 85vh;
+  background-color: rgb(204, 175, 231);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}

@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 
-
-
-  /* background-image: url("bg.jpg"); */
+  /* background-color: rgb(244, 237, 252); */
 
 }
 
 /* body::-webkit-scrollbar {
   display: none;
 } */
+
+.darkMode {
+  background-color: black;
+  color: white;
+}

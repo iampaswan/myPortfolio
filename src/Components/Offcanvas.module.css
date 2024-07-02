@@ -1,0 +1,45 @@
+.logoImage {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+
+  /* border: 5px solid rgb(230, 235, 230);
+  border-top-color: blue;
+  animation: spin 1s linear infinite; */
+}
+
+.logoImage:hover {
+  transform: scale(1.2);
+  border: 1px solid rgb(148, 175, 233);
+}
+
+.offcanvas {
+  width: 5rem;
+  background-color: rebeccapurple;
+}
+
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(233, 207, 207);
+  border: 10px solid rgb(138, 39, 9);
+  border-radius: 50%;
+  border-top-color: blue;
+
+  animation: spin 1s linear infinite;
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

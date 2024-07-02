@@ -9,8 +9,6 @@ import MainSection from './Components/MainSection'
 import Footer from './Components/Footer'
 
 
-
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,12 +17,9 @@ function App() {
       <MainSection></MainSection>
       <Footer></Footer>
 
-
-
-      {/* <Sidebar></Sidebar> */}
-
     </>
   )
 }
-
+// 
 export default App
+
