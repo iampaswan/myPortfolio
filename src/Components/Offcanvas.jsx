@@ -31,10 +31,12 @@ function Example({ selectedTab, setSelectedTab }) {
             have chosen. Like, text, images, lists, etc.
           </p> */}
           <div class="list-group ">
-            <button type="button" class="list-group-item list-group-item-action " aria-current="true"
+            <button type="button" class="list-group-item list-group-item-action active " aria-current="true"
               onClick={() => { setSelectedTab("Home") }}>Home</button>
             <button type="button" class="list-group-item list-group-item-action"
               onClick={() => { setSelectedTab("About") }} >About</button>
+            <button type="button" class="list-group-item list-group-item-action"
+              onClick={() => { setSelectedTab("Project") }} >Project</button>
             <button type="button" class="list-group-item list-group-item-action"
               onClick={() => { setSelectedTab("Blog") }}>Blog</button>
           </div>
