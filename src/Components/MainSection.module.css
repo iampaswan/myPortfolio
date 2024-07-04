@@ -3,11 +3,13 @@
   width: 100vw;
   border: 1px solid black;
 
-  /* background-color: rgb(244, 237, 252); */
+  background-color: rgb(213, 205, 223);
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+
 
 
 }
@@ -15,17 +17,27 @@
 .mainLeft {
   height: 80vh;
   width: 60vw;
-  /* border: 2px solid rgb(199, 169, 169); */
+  border: 2px solid rgb(10, 9, 9);
 
   padding-top: 6rem;
 
 
 }
 
+.twoButtonsContainer {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+}
+
 .twoButtons {
+  height: 2rem;
+  width: 12rem;
+
   background-color: rgb(255, 255, 254);
   border-radius: 1rem;
-
 
   padding-top: 0.1rem;
   padding-bottom: 0.2rem;
@@ -41,15 +53,14 @@
 .twoButtons:hover {
   background-color: rgb(110, 117, 207);
   color: white;
-
 }
 
 
 
 .mainRight {
-  height: 78vh;
+  height: 80vh;
   width: 25vw;
-  /* border: 2px solid rgb(204, 176, 176); */
+  border: 2px solid rgb(19, 17, 17);
 
 
 }
@@ -58,9 +69,18 @@
   height: 80vh;
   width: 13vw;
 
-
-
   /* border: 2px solid black; */
 
+}
+
+@media (max-width:674px) {
+  .MainSection {
+    height: 165vh;
+    flex-direction: column;
+  }
+
+  .mainRight {
+    width: 60vw;
+  }
 
 }
