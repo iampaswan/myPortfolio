@@ -1,6 +1,11 @@
+import styles from './About.module.css'
+
 const About = () => {
   return <>
-    About</>
+    <div className={styles.About}>
+      About
+    </div>
+  </>
 }
 
 export default About;
