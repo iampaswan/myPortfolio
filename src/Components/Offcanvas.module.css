@@ -1,13 +1,19 @@
+.rotatingCircle {
+  border: 2px solid rgb(248, 252, 249);
+  border-top: 2px solid rgb(21, 136, 30);
+  border-radius: 50%;
+
+  animation: spin1 1.25s linear infinite;
+}
+
 .logoImage {
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
   cursor: pointer;
 
+  animation: spin2 1.25s linear infinite;
 
-  /* border: 5px solid rgb(230, 235, 230);
-  border-top-color: blue;
-  animation: spin 1s linear infinite; */
 }
 
 .logoImage:hover {
@@ -21,7 +27,7 @@
 }
 
 
-.box {
+/* .box {
   height: 100px;
   width: 100px;
   background-color: rgb(233, 207, 207);
@@ -29,17 +35,27 @@
   border-radius: 50%;
   border-top-color: blue;
 
-  animation: spin 1s linear infinite;
-}
+  animation: spin 5s linear infinite;
+} */
 
 
 
-@keyframes spin {
+@keyframes spin1 {
   0% {
     transform: rotate(0deg);
   }
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
   }
 }

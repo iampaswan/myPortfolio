@@ -20,7 +20,9 @@ function Example({ selectedTab, setSelectedTab }) {
   return (
     <>
 
-      <img src={logo} alt="logo image" onClick={handleShow} className={styles.logoImage} />
+      <div className={styles.rotatingCircle}>
+        <img src={logo} alt="logo image" onClick={handleShow} className={styles.logoImage} />
+      </div>
       {/* <Button onClick={handleShow} className={styles.iconButton}></Button> */}
       <Offcanvas show={show} onHide={handleClose} className={styles.offcanvas} >
         <Offcanvas.Header closeButton>
