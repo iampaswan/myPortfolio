@@ -5,7 +5,7 @@ const Footer = () => {
     <div className={styles.Footer}>
 
       <div className={styles.leftFooter}>Whatsapp</div>
-      <div className={styles.middleFooter}>Email krishna1119kumar@gmail.com</div>
+      <div className={styles.middleFooter}>Email</div>
       <div className={styles.rightFooter}>Follow me</div>
 
     </div>

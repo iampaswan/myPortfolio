@@ -8,6 +8,7 @@ import MainSection from './Components/MainSection'
 import Footer from './Components/Footer'
 import About from './Components/About'
 import Blog from './Components/Blog'
+import Project from './Components/Project'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       {selectedTab === "Home" && <MainSection />}
       {selectedTab === "About" && <About />}
       {selectedTab === "Blog" && <Blog />}
+      {selectedTab === "Project" && <Project />}
 
       <Footer></Footer>
 
@@ -30,4 +32,6 @@ function App() {
 }
 // 
 export default App
+
+
 

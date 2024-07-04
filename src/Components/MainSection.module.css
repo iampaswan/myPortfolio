@@ -77,10 +77,21 @@
   .MainSection {
     height: 165vh;
     flex-direction: column;
+
+  }
+
+  .mainLeft {
+    width: 80vw;
   }
 
   .mainRight {
-    width: 60vw;
+    width: 80vw;
   }
+
+  .mainPic {
+    width: 15rem;
+  }
+
+
 
 }
