@@ -21,11 +21,8 @@ const Header = ({ selectedTab, setSelectedTab }) => {
       </div>
 
       <div className={styles.rightHeader}>
-
-        <div className={styles.rightHeaderElements}>Contact</div>
-
         <DarkMode></DarkMode>
-        <div className={styles.rightHeaderElements}>Services</div>
+        {/* <div className={styles.rightHeaderElements}>Services</div> */}
 
         {/* <div className={styles.rightHeaderElements}><i className="bi bi-brightness-high"></i></div> */}
         {/* <div className={styles.rightHeaderElements}><i className="bi bi-moon"></i></div> */}
