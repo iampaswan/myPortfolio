@@ -9,9 +9,15 @@
   justify-content: center;
   align-items: center;
 
+  overflow: overlay;
+}
 
+body::-webkit-scrollbar {
+  display: none;
+}
 
-
+.MainSection ::-webkit-scrollbar {
+  display: none;
 }
 
 .mainLeft {
@@ -68,12 +74,12 @@
 
 @media (max-width:674px) {
   .MainSection {
-    height: 165vh;
+    height: 84vh;
     flex-direction: column;
-
   }
 
   .mainLeft {
+    margin-top: 20rem;
     width: 80vw;
   }
 
