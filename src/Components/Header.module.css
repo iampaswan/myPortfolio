@@ -4,10 +4,13 @@
   border-right: 1px solid black;
 
 
-  height: 8vh;
+  height: 9vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  min-width: 412px;
+
 
 }
 

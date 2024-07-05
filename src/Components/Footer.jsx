@@ -7,6 +7,7 @@ const Footer = () => {
   return <>
     <div className={styles.Footer}>
 
+
       <div className={styles.leftFooter}>
         <div>Whatsapp</div>
         <div className={styles.FooterIcons}> <a href="" className={styles.footerIcon1Colour}><i className="bi bi-whatsapp"></i></a></div>

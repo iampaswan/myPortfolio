@@ -1,7 +1,7 @@
 .MainSection {
-  height: 84vh;
+  height: 82vh;
   width: 100vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   /* background-color: rgb(213, 205, 223); */
 
@@ -10,6 +10,9 @@
   align-items: center;
 
   overflow: overlay;
+
+  min-width: 412px;
+
 }
 
 body::-webkit-scrollbar {
@@ -30,16 +33,24 @@ body::-webkit-scrollbar {
 }
 
 .twoButtonsContainer {
+  width: 19rem;
   /* border: 2px solid black; */
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  /* flex-wrap: wrap; */
+
+
+
 
 }
 
 .twoButtons {
   height: 2rem;
-  width: 12rem;
+  width: 10rem;
+
+  gap: 1px;
 
   background-color: rgb(255, 255, 254);
   border: 0.01rem solid black;
