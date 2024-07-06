@@ -13,7 +13,7 @@ const Header = ({ selectedTab, setSelectedTab }) => {
     <div className={styles.Header}>
 
       <div className={styles.leftHeader}>
-        {/* <div className={styles.profilepic}><i class="bi bi-person-circle "></i></div> */}
+        {/* <div className={styles.profilepic}><i className="bi bi-person-circle "></i></div> */}
         {/* <img src={logo} alt="logo image" className={styles.logoImage} /> */}
         <Offcanvas selectedTab={selectedTab} setSelectedTab={setSelectedTab} ></Offcanvas>
 

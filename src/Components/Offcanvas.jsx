@@ -41,6 +41,8 @@ function Example({ selectedTab, setSelectedTab }) {
               onClick={() => { setSelectedTab("Project") }} >Project</button>
             <button type="button" className="list-group-item list-group-item-action"
               onClick={() => { setSelectedTab("Blog") }}>Blog</button>
+            <button type="button" className="list-group-item list-group-item-action"
+              onClick={() => { setSelectedTab("Photos") }}>Photos</button>
           </div>
 
         </Offcanvas.Body>

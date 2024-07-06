@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 import About from './Components/About'
 import Blog from './Components/Blog'
 import Project from './Components/Project'
+import Photos from './Components/Photos'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       {selectedTab === "About" && <About />}
       {selectedTab === "Blog" && <Blog />}
       {selectedTab === "Project" && <Project />}
+      {selectedTab === "Photos" && <Photos />}
 
       <Footer></Footer>
 
@@ -32,6 +34,8 @@ function App() {
 }
 // 
 export default App
+
+
 
 
 
