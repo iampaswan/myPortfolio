@@ -34,7 +34,7 @@ const Photos = () => {
               )
             )
           }
-
+          {/* photss */}
 
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"
             onClick={prevSlide}>
