@@ -5,6 +5,7 @@ const Project = () => {
     <div className={styles.Project}>
       prorject
     </div>
+    {/* new photo */}
   </>
 }
 
