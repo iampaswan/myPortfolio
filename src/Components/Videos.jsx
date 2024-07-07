@@ -1,5 +1,5 @@
 const Videos = () => {
   return <>
-    Vidoes</>
+    Vidoes addint </>
 }
 export default Videos;
