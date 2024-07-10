@@ -1,7 +1,9 @@
 import styles from './Footer.module.css'
 
+const whatsappLink = "https://web.whatsapp.com/"
 const instaLink = "https://www.instagram.com/iampaswanx?igsh=NDg2c2NjeDZoeXdu"
 const mailLink = "https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmVGhLkPBZbTxzgGmkpkvgsPlJhzHPzrVwzHXWBGCSPcgmHRPrtLgXPNLcljRsHDtGxBHB"
+
 
 const Footer = () => {
   return <>
@@ -10,7 +12,7 @@ const Footer = () => {
 
       <div className={styles.leftFooter}>
         <div>Whatsapp</div>
-        <div className={styles.FooterIcons}> <a href="" className={styles.footerIcon1Colour}><i className="bi bi-whatsapp"></i></a></div>
+        <div className={styles.FooterIcons}> <a href={whatsappLink} className={styles.footerIcon1Colour}><i className="bi bi-whatsapp"></i></a></div>
       </div>
 
       <div className={styles.middleFooter}>

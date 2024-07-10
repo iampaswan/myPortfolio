@@ -32,16 +32,22 @@ function Example({ selectedTab, setSelectedTab }) {
           {/* <p>Some text as placeholder. In real life you can have the elements you
             have chosen. Like, text, images, lists, etc.
           </p> */}
+
           <div className="list-group ">
-            <button type="button" className="list-group-item list-group-item-action active " aria-current="true"
+
+            <button type="button" className={`list-group-item list-group-item-action ${selectedTab === "Home" && "active"} `} aria-current="true"
               onClick={() => { setSelectedTab("Home") }}>Home</button>
-            <button type="button" className="list-group-item list-group-item-action"
+
+            <button type="button" className={`list-group-item list-group-item-action ${selectedTab === "About" && "active"} `}
               onClick={() => { setSelectedTab("About") }} >About</button>
-            <button type="button" className="list-group-item list-group-item-action"
+
+            <button type="button" className={`list-group-item list-group-item-action ${selectedTab === "Project" && "active"} `}
               onClick={() => { setSelectedTab("Project") }} >Project</button>
-            <button type="button" className="list-group-item list-group-item-action"
+
+            <button type="button" className={`list-group-item list-group-item-action ${selectedTab === "Blog" && "active"}`}
               onClick={() => { setSelectedTab("Blog") }}>Blog</button>
-            <button type="button" className="list-group-item list-group-item-action"
+
+            <button type="button" className={`list-group-item list-group-item-action ${selectedTab === "Photos" && "active"}`}
               onClick={() => { setSelectedTab("Photos") }}>Photos</button>
           </div>
 
