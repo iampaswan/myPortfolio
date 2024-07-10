@@ -1,5 +1,30 @@
 .Blog {
   height: 82vh;
   width: 100vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  min-width: 412px;
+}
+
+
+.blogContainer {
+  /* margin: 1rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  /* border: 1px solid black; */
+  border-radius: 2px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+
+.blogContainerElements {
+  /* border: 1px solid black; */
+  /* border-radius: 1rem; */
+  border-top: 1px solid black;
+
+
 }

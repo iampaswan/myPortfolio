@@ -23,8 +23,8 @@ function App() {
 
       {selectedTab === "Home" && <MainSection />}
       {selectedTab === "About" && <About />}
-      {selectedTab === "Blog" && <Blog />}
       {selectedTab === "Project" && <Project />}
+      {selectedTab === "Blog" && <Blog />}
       {selectedTab === "Photos" && <Photos />}
 
       <Footer></Footer>
